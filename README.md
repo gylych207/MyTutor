@@ -4,48 +4,37 @@ https://jolly-kare-8a9826.netlify.app/
 
 ## Project Description
 
-MyTutor, is a tutoring platform for mid and high school students. The Website is designed to support students with one to one tutoring sessions. Studens can search tutors related with their subjects and read information about them. if they like the portfolio of the tutor, they can purchase it online. MyTutor is open for tutor applications too. Tutors who can interested in working with us, can send their info to our Tutors database. The appication process is pretty simple. As soon as they fill out the form, they can find themselves in the tutors page. For now, there is no any sign in/sign up features yet for both tutors and students.
+MyTutor, is a tutoring platform for mid and high school students. The Website is designed to support students with one to one tutoring sessions. Studens can search tutors related with their subjects and read information about them. if they like the portfolio of the tutor, they can purchase it online. MyTutor is open for tutor applications too. Tutors who can interested in working with us, can send their info to our Tutors database. The appication process is pretty simple. As soon as they fill out the form, they can find themselves in the tutors page. For now, there is no any sign in/sign up features yet for both tutors and students. For the Sake of time, i will create only "become a tutor","Tutors" pages including tutor info and components. 
 
 ## Wireframes
 
 The wireframes below are high fidelity mockaps except mobile screens. The main functionalities of the website are placed at the become a tutor page and tutors page. Become a tutor page contains a form for adding a tutor in our DB. In the tutors page, there is search bar to search tutors by their lessons. Then they will click info button to show the portfolio of the tutor. And there is a book button in the portfolio section to purchase a tutoring session
 
-!https://xd.adobe.com/view/8cf91a20-a55c-48ce-9212-6093c1232e78-d9aa/?fullscreen&hints=off
+https://xd.adobe.com/view/8cf91a20-a55c-48ce-9212-6093c1232e78-d9aa/?fullscreen&hints=off
 
 ## Component Hierarchy
 
-![imageAlt](https://i.imgur.com/PhRA82l.png)
+https://xd.adobe.com/view/1ed0f55b-4906-487f-9600-84062b0e6964-4b83/
 
 ## API and Data Sample
 
-https://airtable.com/shrTv92TftYf4SVZZ
+https://airtable.com/appWoWF7wRoOZTYEJ
+
 
 Airtable is returning the data for this base as follows:
 
-```
-{
-    "records": [
-        {
-            "id": "recjruUyWVhOO6mJP",
-            "fields": {
-                "title": "The Godfather",
-                "rating": 5,
-                "opinion": "A classic cinematic theme executed perfectly. The acting, spearheaded by Marlon Brando, made the story memorable. "
-            },
-            "createdTime": "2020-10-09T00:27:04.000Z"
-        },
-        {
-            "id": "rec85tP6Ra4a3JiKL",
-            "fields": {
-                "title": "Independence Day",
-                "rating": 3,
-                "opinion": "This movie was not very good in terms of cinematic quality, however it smells of nostalgia which I can't help but enjoy every July 4th. "
-            },
-            "createdTime": "2020-10-09T00:27:04.000Z"
-        }
-    ],
-    "offset": "rec85tP6Ra4a3JiKL"
-}
+records: Array(4)
+0: {id: "recML1znqDIxRv2nS", fields: {…}, createdTime: "2020-12-04T05:26:39.000Z"}
+1: {id: "recNxXx8K1tLaqJal", fields: {…}, createdTime: "2020-12-04T05:26:39.000Z"}
+2:
+createdTime: "2020-12-04T05:26:39.000Z"
+fields: {lessons: "Physics", session: "45min", name: "John", price: "30", lastName: "Mayer"}
+id: "recn95o3hW9aGbTuU"
+__proto__: Object
+3: {id: "recu5Ye7ie4uxIhlY", fields: {…}, createdTime: "2020-12-04T05:31:48.000Z"}
+length: 4
+__proto__: Array(0)
+__proto__: Object
 
 ```
 
@@ -53,51 +42,49 @@ Airtable is returning the data for this base as follows:
 
 #### MVP
 
-- Home page with clickable icons that route to each respective feed.
-- Get and post film reviews from Airtable.
-- Use forms to create reviews and update Airtable.
-- Delete posts from the feed and airtable.
-
+- Home page with clickable navbar to route tutors and become a tutor page
+- Get data from the API.
+- Post data by adding a new tutor
+- Route each button to linked page
+- Render search results in the tutors page
 #### PostMVP
 
-- Collaborate with a UX student to make the UI more attractive/user-friendly.
-- Get and post TV and sports reviews in separate routed icon links.
-- Add a search bar to each review page to find reviews via keywords in the title.
+- Add a review / rating and delete a review in the tutor portfolio section.
+- Sort search results according to the star rating
+- Create rest of the page.
 
 ## Project Schedule
 
 | Day      | Deliverable                                | Status   |
 | -------- | ------------------------------------------ | -------- |
-| Oct 9-11 | Proposal Approval / Airtable Setup         | Complete |
-| Oct 12   | Component Creation / Get, Set, Delete Data | Complete |
-| Oct 13   | Oct. 12 cont'd / CSS Components            | Complete |
-| Oct 14   | CSS Components cont'd / MVP                | Complete |
-| Oct 15   | Advanced CSS                               | Complete |
-| Oct 16   | Presentations                              | Complete |
+| Dec  5   | Proposal Approval / Airtable Setup         | Complete |
+| Dec  6   | Creating Components / Get Data / post data setup  | Complete |
+| Dec  7   | sorting search results                     | Complete |
+| Dec  9   | styling                             | Complete |
+| Dec 10   | styling                               | Complete |
+| Dec 11   | Final revision                              | Complete |
+| Dec 12   | Presentation                              | Complete |
 
 ## Timeframes
 
 | Component                 | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------------- | :------: | :------------: | :-----------: | :---------: |
-| Proposal                  |    H     |      2hrs      |     2hrs      |    2hrs     |
-| Airtable setup            |    H     |     .5hrs      |      1hr      |     1hr     |
-| Clickable icons           |    H     |      1hrs      |      1hr      |     1hr     |
-| Data population pg 1      |    H     |      3hrs      |     3hrs      |    3hrs     |
-| Data population pg 2      |    H     |      3hrs      |     2hrs      |    2hrs     |
-| Data population pg 3      |    H     |      3hrs      |     2hrs      |    2hrs     |
-| Form creation pg 1        |    H     |      2hrs      |     2hrs      |    2hrs     |
-| Form creation pg 2        |    H     |      2hrs      |     1 hr      |    1 hr     |
-| Form creation pg 3        |    H     |      2hrs      |     1 hr      |     1hr     |
-| Data creation/update pg 1 |    H     |      3hrs      |     3hrs      |    3hrs     |
-| Data creation/update pg 2 |    H     |      3hrs      |      1hr      |     1hr     |
-| Data creation/update pg 3 |    H     |      3hrs      |      1hr      |     1hr     |
-| Data deletion pg 1        |    H     |      2hrs      |      1hr      |     1hr     |
-| Data deletion pg 2        |    H     |      2hrs      |      1hr      |     1hr     |
-| Data deletion pg 3        |    H     |      2hrs      |      1hr      |     1hr     |
-| Component CSS pg 1        |    H     |      3hrs      |     4hrs      |    4hrs     |
-| Component CSS pg 2        |    H     |      3hrs      |     4hrs      |    4hrs     |
-| Component CSS pg 3        |    H     |      3hrs      |     4hrs      |    4hrs     |
-| Total                     |    H     |    42.5hrs     |     35hrs     |    35hrs    |
+| Proposal                  |    H     |      2hrs      |     4hrs      |     N/A     |
+| Airtable setup            |    H     |     .5hrs      |      0.5hr    |     N/A    |
+| get Data.                 |    H     |      .5hrs     |     N/A      |     N/A     |
+| populating tutorsPage     |    H     |      3hrs      |      N/A     |     N/A     |
+| populating Portfolio      |    H     |      3hrs      |      N/A     |     N/A     |
+| Post Data Form            |    H     |      4hrs      |      N/A      |     N/A    |
+| Search Function           |    H     |      5hrs      |      N/A      |     N/A     |
+| Creating payment.         |    H     |      3hrs      |     N/A      |     N/A     |
+| Styleing Home Page        |    H     |      4hrs      |     N/A      |     1hr     |
+| Styling Tutors page.      |    H     |      5hrs      |      N/A     |     N/A     |
+| Styling Portfolio page.   |    H     |      3hrs      |      N/A     |      N/A     |
+| Styling Payment Page.     |    H     |      3hrs      |       N/A      |     N/A    |
+| Styling Become A tutor    |    H     |      5hrs      |       N/A     |     N/A     |
+| Add review/delete         |    H     |      4hrs      |       N/A     |     N/A     |
+| Search result sort        |    H     |      6hrs      |       N/A     |     N/A     |
+| Total                     |    H     |    48 Hrs     |      N/A     |     N/A    |
 
 ## SWOT Analysis
 
