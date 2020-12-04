@@ -4,11 +4,11 @@
 
 ## Project Description
 
-MyTutor, is a tutoring platform for mid and high school students. The Website is designed to support students with one to one tutoring sessions. Studens can search tutors related with their subjects and read information about them. if they like the portfolio of the tutor, they can book a tutoring online. MyTutor is open for tutor applications too. Tutors who can interested in working with us, can send their info to our Tutors database. The appication process is pretty simple. As soon as they fill out the form, they can find themselves in the tutors page. For now, there is no any sign in/sign up features yet for, both for tutors and students. For the Sake of time, i will create only "Home","become a tutor","Tutors" pages including "tutor info" and components. 
+MyTutor, is a tutoring platform for mid and high school students. The Website is designed to support students with one to one tutoring sessions. Studens can search tutors related with their subjects and read information about them. if they like the portfolio of the tutor, they can book a tutoring online. MyTutor is open for tutor applications too. Tutors who can interested in working with us, can send their info to our Tutors database. The appication process is pretty simple. As soon as they fill out the form, they can find themselves in the tutors page. For now, there is no any sign in/sign up features yet for, both for tutors and students. For the Sake of time, i will create only "Home","Sign up","Tutors" pages including "tutor info" and components. 
 
 ## Wireframes
 
-The wireframes below are high fidelity mockaps except mobile screens. The main functionalities of the website are placed in the "become a tutor" page and "tutors" page. "Become a tutor" page contains a form for adding a tutor in our DB. In the tutors page, there is a search bar to search tutors by their lessons. Then they can click to info button to show the portfolio of the tutor. Also, there is a book button in the portfolio section to purchase a tutoring session
+The wireframes below are high fidelity mockaps except mobile screens. The main functionalities of the website are placed in the "Sign Up" page and "tutors" page. "Sign Up" page contains a form for adding a tutor in our DB. In the tutors page, there is a search bar to search tutors by their lessons. Then they can click to info button to show the portfolio of the tutor. Also, there is a book button in the portfolio section to purchase a tutoring session
 
 https://xd.adobe.com/view/8cf91a20-a55c-48ce-9212-6093c1232e78-d9aa/?fullscreen&hints=off
 
