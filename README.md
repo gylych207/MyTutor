@@ -1,6 +1,6 @@
-# What-cha-Think
+# MyTutor
 
-https://jolly-kare-8a9826.netlify.app/
+
 
 ## Project Description
 
