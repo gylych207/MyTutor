@@ -57,49 +57,48 @@ __proto__: Object
 
 | Day      | Deliverable                                | Status   |
 | -------- | ------------------------------------------ | -------- |
-| Dec  5   | Proposal Approval / Airtable Setup         | Complete |
-| Dec  6   | Creating Components / Get Data / post data setup  | Complete |
-| Dec  7   | sorting search results                     | Complete |
-| Dec  9   | styling                             | Complete |
-| Dec 10   | styling                               | Complete |
-| Dec 11   | Final revision                              | Complete |
-| Dec 12   | Presentation                              | Complete |
+| Dec  5   | Proposal Approval / Airtable Setup         | N/A |
+| Dec  6   | Creating Components / Get Data / post data setup  | N/A |
+| Dec  7   | sorting search results                     | N/A |
+| Dec  9   | styling                                    | N/A |
+| Dec 10   | styling                                    | N/A |
+| Dec 11   | Final revision                             | N/A |
+| Dec 12   | Presentation                               | N/A |
 
 ## Timeframes
 
 | Component                 | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------------- | :------: | :------------: | :-----------: | :---------: |
 | Proposal                  |    H     |      2hrs      |     4hrs      |     N/A     |
-| Airtable setup            |    H     |     .5hrs      |      0.5hr    |     N/A    |
-| get Data.                 |    H     |      .5hrs     |     N/A      |     N/A     |
-| populating tutorsPage     |    H     |      3hrs      |      N/A     |     N/A     |
-| populating Portfolio      |    H     |      3hrs      |      N/A     |     N/A     |
-| Post Data Form            |    H     |      4hrs      |      N/A      |     N/A    |
+| Airtable setup            |    H     |     .5hrs      |      0.5hr    |     N/A     |
+| get Data.                 |    H     |      .5hrs     |     N/A       |     N/A     |
+| populating tutorsPage     |    H     |      3hrs      |      N/A      |     N/A     |
+| populating Portfolio      |    H     |      3hrs      |      N/A      |     N/A     |
+| Post Data Form            |    H     |      4hrs      |      N/A      |     N/A     |
 | Search Function           |    H     |      5hrs      |      N/A      |     N/A     |
-| Creating payment.         |    H     |      3hrs      |     N/A      |     N/A     |
-| Styleing Home Page        |    H     |      4hrs      |     N/A      |     1hr     |
-| Styling Tutors page.      |    H     |      5hrs      |      N/A     |     N/A     |
-| Styling Portfolio page.   |    H     |      3hrs      |      N/A     |      N/A     |
-| Styling Payment Page.     |    H     |      3hrs      |       N/A      |     N/A    |
+| Creating payment.         |    H     |      3hrs      |     N/A       |     N/A     |
+| Styleing Home Page        |    H     |      4hrs      |     N/A       |     1hr     |
+| Styling Tutors page.      |    H     |      5hrs      |      N/A      |     N/A     |
+| Styling Portfolio page.   |    H     |      3hrs      |      N/A      |      N/A    |
+| Styling Payment Page.     |    H     |      3hrs      |       N/A     |     N/A     |
 | Styling Become A tutor    |    H     |      5hrs      |       N/A     |     N/A     |
 | Add review/delete         |    H     |      4hrs      |       N/A     |     N/A     |
 | Search result sort        |    H     |      6hrs      |       N/A     |     N/A     |
-| Total                     |    H     |    48 Hrs     |      N/A     |     N/A    |
+| Total                     |    H     |    48 Hrs      |      N/A      |     N/A    |
 
 ## SWOT Analysis
 
 ### Strengths:
 
-I have a good understanding of what i want my application to look like and what exactly I want it to do. As such, I can better plan for what needs to be done and how long it will take. I also know which labs and excercise I can reference if I get lost along the way.
-
+I have a good understanding of detting data from API So i can easily populate the API data. 
 ### Weaknesses:
 
-I am still not terribly clear on CRUD and how to make sure I can carry each aspect out for this project. Additionally, I prefer to stick to functional components but given the parameters of the project, I'll need to use class components, as well. I will likely use most of my research time/manager help on these matters.
+My weekness is to how to iplement update the data, and delete the data as well component lifecycle methods. 
 
 ### Opportunities:
 
-This project is the culmination of the last 2 weeks and will give me an opportunity to solidify my understanding of react. I also happen to be interested in the function of my app given my interests, so I am motivated to make it look usable and attractive.
+This project is huge opportunity for me to digest the topics what we covered so far. And, is a kind of chance to give a life to my prototypes that i have designed before
 
 ### Threats:
 
-Whenever I get stuck with an error or an issue, I tend to go down a rabbit hole of online searches and debugging. Often times, I don't timebox these episodes and lose a lot of time. While this is typically a favorable characteristic in a developer, I'll need to make sure I know when to ask for help.
+I spend too much time to search solution online, readng blogs,watching vdeos. i spend too much time. But i learned a lot when i try something on my own. but the poor balance between asking a help and struggling myself on the solution is a vital to manage my time. 
